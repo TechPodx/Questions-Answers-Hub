@@ -105,7 +105,7 @@ class ShiftCipher {
 };
 
 // Test
-const cipher = new ShiftCipher(2);
+const cipher = new ShiftCipher(3);
 
-console.log(cipher.encrypt('I love to code!z')); // Output: 'K NQXG VQ EQFG!'
+console.log(cipher.encrypt('I love to code!')); // Output: 'K NQXG VQ EQFG!'
 console.log(cipher.decrypt('K <3 OA RWRRA')); // Output: 'i <3 my puppy'
